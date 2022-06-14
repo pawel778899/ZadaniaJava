@@ -2,7 +2,7 @@ package Zadanie1;
 
 public class Circle {
 
-    private double diameter;
+    private final double diameter;
 
     public Circle(double diameter) {
         this.diameter = diameter;
