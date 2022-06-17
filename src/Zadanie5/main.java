@@ -9,11 +9,11 @@ public class main {
         System.out.println("Type number: ");
         int number = scanner.nextInt();
 
-PrimeNumbers primeNumbers_1 = new PrimeNumbers(100);
-PrimeNumbers primeNumbers_2 = new PrimeNumbers(number);
+        PrimeNumbers primeNumbers_1 = new PrimeNumbers(100);
+        PrimeNumbers primeNumbers_2 = new PrimeNumbers(number);
 
-primeNumbers_1.writePrimeNumbers();
-System.out.println("\n");
-primeNumbers_2.writePrimeNumbers();
+        primeNumbers_1.writePrimeNumbers();
+        System.out.println("\n");
+        primeNumbers_2.writePrimeNumbers();
     }
 }
