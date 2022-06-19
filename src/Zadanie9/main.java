@@ -1,12 +1,20 @@
 package Zadanie9;
 
-public class Main {
+import java.util.Scanner;
+
+public class main {
 
     public static void main(String[] args) {
 
-        Wave wave = new Wave(6);
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("Type number: ");
+        int size = scanner.nextInt();
 
-        wave.drawWave();
+        Wave wave_1 = new Wave(5);
+        Wave wave_2 = new Wave(size);
+
+        wave_1.drawWave();
+        wave_2.drawWave();
 
     }
 }
