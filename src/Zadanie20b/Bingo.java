@@ -1,2 +1,15 @@
-package Zadanie20b;public class Bingo {
+import java.util.Random;
+
+public class Bingo {
+
+    private final int answer;
+
+    public Bingo() {
+        Random random = new Random();
+        this.answer = random.nextInt(100 + 1);
+    }
+
+    public int getAnswer() {
+        return answer;
+    }
 }
